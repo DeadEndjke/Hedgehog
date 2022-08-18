@@ -1,0 +1,172 @@
+.header,
+.navbar_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 65px;
+}
+
+.burger {
+    display: none;
+    width: 87px;
+}
+
+.navbar_links {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(25, 85, 87, 1);
+}
+
+.navbar_link:not(:last-child) {
+    margin-right: 86px;
+}
+
+
+
+.phonecall {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(25, 85, 87, 1);
+}
+
+.phone_circle {
+    width: 69px;
+    height: 69px;
+    background: linear-gradient(1.36deg, #B0D3CE 12.29%, #FFEDCE 83.89%);
+    box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.phone_logo {
+    padding: 22px;
+}
+
+.burger_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.burgermenu {
+    display: none;
+    top: 8px;
+    left: 0;
+    height: 480px;
+    width: 95vw;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px #E3E3E3;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.burger_navbar {
+    padding: 56px 0 161px 0;
+}
+
+.burger_logo {
+    width: 56px;
+    height: 26px;
+    position: absolute;
+    left: calc(100vw/2 - 28px);
+    top: 27px;
+}
+
+.burger_link {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #195557;
+    margin-left: 40px;
+}
+
+.burger_link:not(:last-child) {
+    margin-bottom: 19px;
+}
+
+.burger_phone_number {
+    display: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #195557;
+    margin-left: 40px;
+}
+
+.phone_and_basket {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+    .navbar {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .burger_phone_number {
+        display: block;
+    }
+
+    .header {
+        padding: 32px 20px;
+    }
+
+    .header_logo_img {
+        width: 56px;
+        height: 26px;
+    }
+
+    .phone_circle {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .phone_logo {
+        width: 13px;
+        height: 11px;
+        padding: 12px;
+    }
+
+    .basket_logo_img {
+        width: 32px;
+        height: 26px;
+
+    }
+
+    .phone_number {
+        display: none;
+    }
+}
