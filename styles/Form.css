@@ -101,6 +101,7 @@ label {
     position: relative;
     top: -33px;
     left: 434px;
+    margin-bottom: 67px;
 }
 
 
@@ -155,6 +156,4 @@ label {
     .form {
         border-radius: 0%;
     }
-
-
 }
