@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/icons.css">
     <link rel="stylesheet" href="/styles/Backgrounds.css">
     <link rel="stylesheet" href="/styles/cards.css">
+    <link rel="stylesheet" href="/styles/Form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,7 +18,6 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <div class="shadow_eclipse_1"></div> -->
     <header  class="header">
         <div class="burger">
             <img  id="burger_button_open"  src="/assets/svg/burger.svg" alt="">
@@ -117,7 +117,51 @@
             </div>
         </div>
 
+        <div class="container">
         <div class="shop"></div>
+
+            <form class="form" action="">
+                <h1 class="form_title">Заполните заявку и мы забронируем для Вас нового друга</h1>
+                <div class="options">
+                    <div class="buttons">
+                        <button class="btn">хочу ёжика для себя</button>
+                        <button class="btn">хочу ёжика для детей</button>
+                        <button class="btn">хочу ёжика для разведения</button>
+                    </div>
+                    <div class="radio_buttons">
+                        <div class="radio">
+                            <input type="radio" id="12">
+                            <label for="12">Мне нужен 1-2 ёжика</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" id="3">
+                            <label for="3">Мне нужны 3 и более ёжиков</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" id="34">
+                            <label for="34">Мне нужны 3-4 ёжика</label>
+                        </div>
+    
+                        <div class="radio">
+                            <input type="radio" id="none">
+                            <label for="none">Пока присматриваюсь</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <input class="input" type="text" placeholder="Ваше имя">
+                    <input class="input" type="number" placeholder="Ваш телефон">
+                    <input class="input" type="email" placeholder="Ваш e-mail">
+                </div>
+                <textarea class="textarea" name="textarea" id="textarea" cols="30"  placeholder="Комментарий к заявке"></textarea>
+                
+            </form>
+            <button class="buy_btn positioned">Купить ёжика</button>
+        </div>
+
+        
         
         
     </main>

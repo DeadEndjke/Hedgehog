@@ -7,8 +7,29 @@
 
 html {}
 
-body {
-    /* background: #EAEEEF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+.container {
 
+    max-width: 1197px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 635px;
+    /* text-align: center; */
+}
+
+@media screen and (max-width:1454px) {
+    .container {
+        margin-top: 1135px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container {
+        margin-top: 135px;
+    }
 }

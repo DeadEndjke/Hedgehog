@@ -1,0 +1,160 @@
+.form {
+    padding: 39px 49px;
+    background: #EAEEEF;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.form_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #195557;
+    margin-bottom: 30px;
+}
+
+.options {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 43px;
+}
+
+.radio_buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    text-align: start;
+}
+
+.btn {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #70908B;
+
+    background: #FFFFFF;
+    border: 2px solid #70908B;
+    border-radius: 61px;
+
+    padding: 16px 22px;
+}
+
+.btn:not(:last-child) {
+    margin-right: 14px;
+}
+
+.buy_btn {}
+
+label {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #70908B;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 22px 27px;
+    color: #195557;
+    background: #F8F8F8;
+    border-radius: 8px;
+    border: none;
+    width: calc(100% - 54px);
+}
+
+.textarea {
+    background: #F8F8F8;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #195557;
+    width: calc(100% - 28px);
+    border: none;
+    height: 108px;
+    padding: 22px 0 0 28px;
+    margin-bottom: 40px;
+}
+
+.positioned {
+    position: relative;
+    top: -33px;
+    left: 434px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .positioned {
+        left: calc((100vw - 282px)/2)
+    }
+}
+
+
+@media screen and (max-width:770px) {
+
+    .inputs {
+        grid-template-columns: unset;
+    }
+}
+
+@media screen and (max-width:1054px) {
+    .options {
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:690px) {
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .options {
+        align-items: flex-start;
+    }
+
+    .form_title {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .radio_buttons {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .form {
+        border-radius: 0%;
+    }
+
+
+}

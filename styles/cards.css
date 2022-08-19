@@ -1,10 +1,9 @@
 .shop {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 1100px;
-    left: calc(100vw / 2 - 590px);
+    margin-bottom: 91px;
 }
+
 
 
 
@@ -13,12 +12,12 @@
     height: 397px;
     border-radius: 16px;
     box-shadow: 4px 4px 40px #F1F1F1;
-    margin: 0 10px;
     display: flex;
     flex-direction: row;
     cursor: pointer;
-
+    margin-right: 39px;
 }
+
 
 .card_description {
     margin-left: 59px;
@@ -129,11 +128,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1454px) {
-    .shop {
-        top: 1600px;
-    }
-}
+
 
 @media screen and (max-width:1200px) {
     .shop {
@@ -145,16 +140,10 @@
 
 }
 
-@media screen and (max-width:1024px) {
-    .shop {
-        top: 1350px;
-    }
-}
+
 
 @media screen and (max-width:708px) {
-    .shop {
-        top: 1050px;
-    }
+
 
     .card {
         width: 379.76px;
@@ -200,15 +189,11 @@
 
 }
 
-@media screen and (max-width:640px) {
-    .shop {
-        top: 950px;
-    }
-}
 
 @media screen and (max-width:460px) {
+
     .shop {
-        top: 800px;
+        margin-bottom: 30px;
     }
 
     .card {
