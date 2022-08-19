@@ -1,0 +1,168 @@
+.icon_block {
+    text-align: center;
+}
+
+.icon_1,
+.icon_2,
+.icon_3 {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 50%;
+    align-items: center;
+    z-index: 4;
+
+}
+
+.icon_1 {
+    left: calc(33vw - 76px);
+    background-color: rgba(255, 237, 205, 1);
+    top: 750px;
+}
+
+.icon_2 {
+    left: calc(50vw - 76px);
+    background-color: rgba(226, 240, 223, 1);
+    top: 730px;
+}
+
+.icon_3 {
+    left: calc(67vw - 76px);
+    background-color: rgba(112, 144, 139, 1);
+    top: 750px;
+}
+
+.icon_svg {
+    padding: 53px;
+}
+
+.icon_svg_h {
+    padding: 40px 45px 45px 40px;
+}
+
+.icon_text {
+    margin-top: 30px;
+}
+
+.icon_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #195557;
+}
+
+
+
+.icon_description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #195557;
+}
+
+.icon_block_invisible {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .icon_1,
+    .icon_2,
+    .icon_3 {
+        position: initial;
+        text-align: start;
+    }
+
+    .icons {
+        width: 364px;
+        position: relative;
+        left: calc(100vw / 2 - 182px);
+        margin-top: 200px;
+        z-index: 11;
+        display: grid;
+        grid-template-columns: repeat(2, 182px);
+        grid-template-rows: repeat(2, 322px);
+    }
+
+    .icon_description {
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .icons {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .icon_1,
+    .icon_2,
+    .icon_3 {
+        width: 92.24px;
+        height: 92.24px;
+    }
+
+    .icon_svg,
+    .icon_svg_h {
+        width: 50px;
+        height: 35px;
+        padding: 30px 22px;
+    }
+
+    .icons {
+        left: calc(100vw / 2 - 110px);
+        margin-top: 30px;
+        z-index: 11;
+        display: grid;
+        grid-template-columns: repeat(2, 110px);
+        grid-template-rows: repeat(2, 220px);
+    }
+
+    .icon_text {
+        margin-top: 18px;
+    }
+
+    .icons {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .icons {
+        margin-top: 230px;
+    }
+
+    .icon_block_invisible {
+        display: block;
+    }
+
+
+    .icon_title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #195557;
+    }
+
+
+
+    .icon_description {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 159.9%;
+        color: #195557;
+    }
+}

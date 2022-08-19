@@ -1,1 +1,117 @@
 main {}
+
+
+.middle_title {
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    top: calc(100vw / 14.54)
+}
+
+.large_text {
+    margin-bottom: 20px;
+}
+
+.sub_text {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #70908B;
+    margin-bottom: 18px;
+}
+
+.sub_sub_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #70908B;
+    margin-bottom: 34px;
+}
+
+.buy_btn {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 26px 116px;
+
+    background: #70908B;
+    box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+    border-radius: 40px;
+    border: none;
+}
+
+.buy_btn:hover {
+    background: linear-gradient(90.14deg, #B0D3CE -2.41%, #FFEDCE 99.79%);
+    color: #195557;
+}
+
+@media screen and (max-width:708px) {
+    .large_text_img {
+        width: 202px;
+        height: 44px;
+    }
+
+    .sub_text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .sub_sub_text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 146.4%;
+    }
+
+
+    .buy_btn {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 22px 93px;
+
+        background: #70908B;
+        box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+        border-radius: 40px;
+        border: none;
+    }
+}
+
+@media screen and (max-width:708px) {
+    .middle_title {
+        top: 0;
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .middle_title {
+        margin-left: 19px;
+        position: absolute;
+        top: 83px;
+        text-align: start;
+    }
+
+    .large_text {
+        margin-bottom: 0;
+    }
+
+    .sub_text {
+        margin-bottom: 0;
+    }
+
+    .sub_sub_text {
+        margin-bottom: 10px;
+    }
+}

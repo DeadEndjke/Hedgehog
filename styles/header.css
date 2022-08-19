@@ -8,6 +8,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 35px 65px;
+    position: relative;
+    z-index: 223;
 }
 
 .burger {
@@ -54,6 +56,11 @@
 
 .phone_logo {
     padding: 22px;
+}
+
+.phone_number {
+
+    margin-right: 80px;
 }
 
 .burger_nav {
@@ -131,10 +138,26 @@
 
     .burger {
         display: block;
+        width: 397px;
+    }
+}
+
+@media screen and (max-width:1048px) {
+    .phone_number {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        width: 126px;
     }
 }
 
 @media screen and (max-width:640px) {
+    .burger {
+        width: 87px;
+    }
+
     .burger_phone_number {
         display: block;
     }
@@ -166,7 +189,5 @@
 
     }
 
-    .phone_number {
-        display: none;
-    }
+
 }
