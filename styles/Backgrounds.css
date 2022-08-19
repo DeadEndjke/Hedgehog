@@ -97,11 +97,18 @@
     }
 }
 
+@media screen and (max-width:640px) {
+    .hedgehog_2 {
+        width: 213px;
+        height: 203px;
+    }
+}
+
 @media screen and (max-width:460px) {
 
     .hedgehog_2 {
         top: 300px;
-        width: 213px;
+        width: 193px;
         height: 203px;
     }
 

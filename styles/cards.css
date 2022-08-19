@@ -1,0 +1,236 @@
+.shop {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1100px;
+    left: calc(100vw / 2 - 590px);
+}
+
+
+
+.card {
+    width: 570px;
+    height: 397px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 40px #F1F1F1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+}
+
+.card_description {
+    margin-left: 59px;
+    margin-top: 54px;
+}
+
+.name_title,
+.name {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #195557;
+}
+
+.name {
+    margin-bottom: 17px;
+}
+
+
+
+
+.description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 7px;
+    color: #000000;
+}
+
+.price {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: line-through;
+
+    color: #C2CCCA;
+}
+
+.newprice {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #195557;
+}
+
+.discount {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding: 6px;
+    background: #70908B;
+    z-index: 22;
+    position: relative;
+    top: -54px;
+}
+
+.sonic_img {
+    position: relative;
+    top: 99px;
+    width: 363px;
+    height: 265px;
+}
+
+.info_img {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    left: -55px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
+.info_img:hover {
+
+    cursor: pointer;
+}
+
+.triangle {
+    position: relative;
+    top: 20px;
+    left: -145px;
+    border-bottom: 80px solid white;
+    border-left: 85px solid transparent;
+    z-index: 10;
+}
+
+.x_img {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 371px;
+    left: -70px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1454px) {
+    .shop {
+        top: 1600px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .shop {
+        width: 100vw;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .shop {
+        top: 1350px;
+    }
+}
+
+@media screen and (max-width:708px) {
+    .shop {
+        top: 1050px;
+    }
+
+    .card {
+        width: 379.76px;
+        height: 318px;
+        margin: 0 15px;
+    }
+
+    .card_description {
+        margin-left: 29px;
+        margin-top: 44px;
+    }
+
+    .name_title,
+    .name {
+        font-size: 30px;
+        line-height: 99.6%;
+    }
+
+    .description {
+        font-size: 11px;
+        line-height: 141.9%;
+    }
+
+    .sonic_img {
+        width: 277px;
+        height: 229px;
+        top: 39px;
+    }
+
+    .info_img {
+        display: none;
+    }
+
+    .x_img {
+        width: 26px;
+        height: 26px;
+        position: relative;
+        top: 290px;
+        left: -70px;
+        z-index: 11;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .shop {
+        top: 950px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .shop {
+        top: 800px;
+    }
+
+    .card {
+        width: 243.76px;
+        height: 318px;
+        margin: 0 15px;
+    }
+
+    .sonic_img {
+        width: 177px;
+        height: 129px;
+        top: 120px;
+        left: -20px;
+    }
+
+    .triangle {
+        top: 20px;
+        left: -185px;
+    }
+
+
+    .x_img {
+        left: -105px;
+    }
+}
