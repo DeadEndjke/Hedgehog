@@ -1,0 +1,180 @@
+.footer,
+.footer_navbar_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    justify-content: space-between;
+    background: #70908B;
+    padding: 49px 60px 30px 61px;
+    align-items: center;
+}
+
+.prival {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 131.4%;
+    color: #FFFFFF;
+    width: 387px;
+}
+
+.footer_navbar_link {
+    margin-right: 104px;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer_phone_number {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-left: 76px;
+}
+
+.links_and_phone_number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.invisible {
+    display: none;
+}
+
+
+
+.sotional_link_499:not(:last-child) {
+    margin-bottom: 23px;
+}
+
+
+
+.sotional_link:not(:last-child) {
+    margin-right: 23px;
+}
+
+.footer_navbar_link:not(:last-child) {
+    margin-right: 91px;
+}
+
+@media screen and (max-width:1604px) {
+    .footer_navbar_link:not(:last-child) {
+        margin-right: 23px;
+    }
+}
+
+@media screen and (max-width:1312px) {
+    .footer_navbar_link {
+        margin-right: 23px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+
+    .footer_phone_number {
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width:1378px) {
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer_logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:870px) {
+
+    .links_and_phone_number {
+        flex-direction: column;
+    }
+
+    .footer_navbar,
+    .sotional_links {
+        margin-bottom: 30px;
+    }
+
+    .footer_phone_number {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:499px) {
+
+    .footer {
+        padding: 35px 20px;
+        align-items: start;
+    }
+
+    .footer_logo {
+        text-align: start;
+    }
+
+    .links_and_phone_number {
+        align-items: start;
+    }
+
+    .footer_phone_number {
+        margin-bottom: 34px;
+    }
+
+    .sotional_links {
+        display: none;
+    }
+
+    .prival {
+        display: none;
+        font-size: 11px;
+        width: 265px;
+    }
+
+    .footer_navbar_links {
+        flex-direction: column;
+        margin-bottom: 54px;
+    }
+
+    .footer_navbar_link:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .invisible {
+        display: inline;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:460px) {
+    .sotional_links_499 {
+        bottom: -1100px;
+    }
+
+
+    .links_and_phone_number,
+    .prival {
+        width: 85vw;
+    }
+
+}

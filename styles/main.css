@@ -168,3 +168,10 @@ main {}
         text-align: left;
     }
 }
+
+@media screen and (max-width:310px) {
+    .buy_btn {
+        padding: 12px 23px;
+    }
+
+}
