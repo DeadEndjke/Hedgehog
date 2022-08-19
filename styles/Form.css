@@ -49,8 +49,6 @@
     margin-right: 14px;
 }
 
-.buy_btn {}
-
 label {
     font-family: 'Cormorant Infant';
     font-style: normal;
@@ -156,6 +154,4 @@ label {
     .form {
         border-radius: 0%;
     }
-
-
 }

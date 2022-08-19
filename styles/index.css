@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    /* outline: 2px solid red; */
 }
-
-html {}
 
 .container {
 
@@ -13,7 +10,6 @@ html {}
     width: 100%;
     margin: 0 auto;
     margin-top: 635px;
-    /* text-align: center; */
 }
 
 @media screen and (max-width:1454px) {

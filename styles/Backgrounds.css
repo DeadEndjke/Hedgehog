@@ -38,7 +38,6 @@
 .hedgehog_1 {
     position: absolute;
     z-index: 3;
-    /* top: calc(100vw / 3.5) */
     top: 550px;
 }
 
@@ -46,7 +45,6 @@
     position: absolute;
     z-index: 43;
     right: 0px;
-    /* top: calc(100vw / 2.6) */
     top: 740px;
 }
 
